@@ -48,8 +48,13 @@
   <ItemGroup>
      <Compile Include="Assets\Demigiant\DOTween\Examples\Basics.cs" />
      <Compile Include="Assets\Demigiant\DOTween\Examples\Sequences.cs" />
+     <Compile Include="Assets\Scripts\BrickController.cs" />
+     <Compile Include="Assets\Scripts\BrickFactory.cs" />
+     <Compile Include="Assets\Scripts\ColorClass.cs" />
      <Compile Include="Assets\Scripts\ListItem\ListItem2.cs" />
      <Compile Include="Assets\Scripts\ListItem\ListItem3.cs" />
+     <Compile Include="Assets\Scripts\PageSetup.cs" />
+     <Compile Include="Assets\Scripts\TransformToggleScript.cs" />
      <None Include="Assets\Demigiant\DOTween\readme.txt" />
      <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
      <None Include="Assets\Demigiant\DOTween\DOTween46.xml" />
@@ -65,16 +70,16 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="DOTween">
- <HintPath>C:/Users/casper/Documents/unity/MentorDanmarkApp2/MentorDanmarkApp2/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+ <HintPath>C:/Users/Ørvald/Documents/MentorDanmarkApp2/MentorDanmarkApp2/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="DOTween43">
- <HintPath>C:/Users/casper/Documents/unity/MentorDanmarkApp2/MentorDanmarkApp2/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
+ <HintPath>C:/Users/Ørvald/Documents/MentorDanmarkApp2/MentorDanmarkApp2/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
  </Reference>
  <Reference Include="DOTween46">
- <HintPath>C:/Users/casper/Documents/unity/MentorDanmarkApp2/MentorDanmarkApp2/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
+ <HintPath>C:/Users/Ørvald/Documents/MentorDanmarkApp2/MentorDanmarkApp2/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
  </Reference>
  <Reference Include="DOTween50">
- <HintPath>C:/Users/casper/Documents/unity/MentorDanmarkApp2/MentorDanmarkApp2/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
+ <HintPath>C:/Users/Ørvald/Documents/MentorDanmarkApp2/MentorDanmarkApp2/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
