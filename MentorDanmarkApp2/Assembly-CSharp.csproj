@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\ListItem\ListItem2.cs" />
      <Compile Include="Assets\Scripts\ListItem\ListItem3.cs" />
      <Compile Include="Assets\Scripts\PageSetup.cs" />
+     <Compile Include="Assets\Scripts\ToggleCanvas.cs" />
      <Compile Include="Assets\Scripts\TransformToggleScript.cs" />
      <None Include="Assets\Demigiant\DOTween\readme.txt" />
      <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />

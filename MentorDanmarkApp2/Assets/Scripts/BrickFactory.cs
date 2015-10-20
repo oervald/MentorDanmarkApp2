@@ -19,7 +19,7 @@ public class BrickFactory : MonoBehaviour {
 	
 	}
 	//Creates a new brick and puts it into the BrickPanel, also places the brick in a Dictionary to control the amount of bricks
-	public void CreateBrick(string title){
+	public void CreateBrick(string title, string percentage){
 		GameObject object_brick = Instantiate (brick) as GameObject;
 
 
@@ -28,7 +28,19 @@ public class BrickFactory : MonoBehaviour {
 
 		object_brick.transform.SetParent(imagePanel.transform,true);
 		object_brick.transform.localScale = (new Vector3 (1, 1, 1));
-		object_brick.GetComponentInChildren<Text>().text = title;
+		Text[] texts = object_brick.GetComponentsInChildren<Text>();
+		foreach (Text t in texts) {
+			if(t.CompareTag("BrickText")){
+				t.text = title;
+			}
+
+			if(t.CompareTag("BrickPercentage")){
+				t.text = percentage;
+			}
+
+		}
+
+
 		object_brick.GetComponentInChildren<Text> ().fontSize = 24;
 	}
 

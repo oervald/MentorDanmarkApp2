@@ -1,15 +1,38 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PageSetup.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ToggleCanvas.cs">
     <Files>
-      <File FileName="Assets\Scripts\BrickFactory.cs" Line="32" Column="62" />
-      <File FileName="Assets\Scripts\TransformToggleScript.cs" Line="27" Column="22" />
-      <File FileName="Assets\Scripts\BrickController.cs" Line="16" Column="13" />
-      <File FileName="Assets\Scripts\PageSetup.cs" Line="12" Column="40" />
+      <File FileName="Assets\Scripts\BrickFactory.cs" Line="38" Column="25" />
+      <File FileName="Assets\Scripts\TransformToggleScript.cs" Line="25" Column="36" />
+      <File FileName="Assets\Scripts\BrickController.cs" Line="18" Column="36" />
+      <File FileName="Assets\Scripts\PageSetup.cs" Line="24" Column="17" />
+      <File FileName="Assets\Scripts\ColorClass.cs" Line="13" Column="1" />
+      <File FileName="Assets\Scripts\ToggleCanvas.cs" Line="22" Column="3" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Scripts" expanded="True">
+              <Node name="ToggleCanvas.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>this.bc.bf</Value>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Ørvald\Documents\MentorDanmarkApp2\MentorDanmarkApp2\Assets\Scripts\BrickFactory.cs" line="67" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

@@ -14,8 +14,8 @@ public class BrickController : MonoBehaviour {
 	
 	}
 
-	public void CreateNewBrick(string title){
-		bf.CreateBrick (title);
+	public void CreateNewBrick(string title, string percentage){
+		bf.CreateBrick (title, percentage);
 	}
 
 	public void DeleteBrick( string title){

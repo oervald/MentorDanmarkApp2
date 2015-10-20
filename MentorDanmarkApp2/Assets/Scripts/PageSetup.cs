@@ -7,6 +7,7 @@ public class PageSetup : MonoBehaviour {
 	BrickController bc;
 	List<GameObject> PanelBricks;
 	public GameObject panel;
+	public Canvas main;
 	// Use this for initialization
 	void Start () {
 		bc = GameObject.Find ("SettingsCanvasScriptObject").GetComponent<BrickController> ();
@@ -20,7 +21,7 @@ public class PageSetup : MonoBehaviour {
 				img.color = bc.ColorSync(img.GetComponentInChildren<Text>().text);
 		}
 		}
-
+		main.transform.SetAsLastSibling ();
 	}
 	
 	// Update is called once per frame
