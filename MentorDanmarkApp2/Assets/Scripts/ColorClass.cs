@@ -11,7 +11,6 @@ using System;
 	Color32 taktil;
 	Color32 kinaestaetisk;
 
-
 		public ColorClass ()
 		{
 		this.analytisk = new Color32 (244, 67, 54, 255);
@@ -20,6 +19,7 @@ using System;
 		this.auditiv = new Color32 (103, 58, 183, 255);
 		this.taktil = new Color32 (61, 81, 181, 255);
 		this.kinaestaetisk = new Color32 (33, 150, 243, 255);
+
 		}
 
 	 public Color32 Analytisk {

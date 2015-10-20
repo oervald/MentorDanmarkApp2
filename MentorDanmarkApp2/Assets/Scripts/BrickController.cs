@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class BrickController : MonoBehaviour {
-	BrickFactory bf;
+	public BrickFactory bf;
 	// Use this for initialization
 	void Start () {
-		bf = gameObject.GetComponent<BrickFactory> ();
+
 	}
 	
 	// Update is called once per frame
@@ -22,6 +23,8 @@ public class BrickController : MonoBehaviour {
 	}
 
 	public Color32 ColorSync(string title){
+		print (title);
+		print (bf.imagePanel.name);
 		return bf.ColorSync (title);
 	}
 }

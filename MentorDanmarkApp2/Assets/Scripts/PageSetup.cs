@@ -9,7 +9,7 @@ public class PageSetup : MonoBehaviour {
 	public GameObject panel;
 	// Use this for initialization
 	void Start () {
-		bc = GameObject.Find ("ScriptObject").GetComponent<BrickController> ();
+		bc = GameObject.Find ("SettingsCanvasScriptObject").GetComponent<BrickController> ();
 
 		Image [] transforms = panel.GetComponentsInChildren<Image> ();
 

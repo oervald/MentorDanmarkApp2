@@ -18,20 +18,21 @@ public class BrickFactory : MonoBehaviour {
 	void Update () {
 	
 	}
-
+	//Creates a new brick and puts it into the BrickPanel, also places the brick in a Dictionary to control the amount of bricks
 	public void CreateBrick(string title){
 		GameObject object_brick = Instantiate (brick) as GameObject;
-		object_brick.GetComponentInChildren<Text>().text = title;
+
 
 		object_brick.GetComponentInChildren<Image> ().color = ColorSync (title);
 		BricksInUse.Add(title, object_brick);
-		object_brick.transform.localScale = (new Vector3 (0.45f, 0.45f, 0.45f));
+
 		object_brick.transform.SetParent(imagePanel.transform,true);
-
-
-
+		object_brick.transform.localScale = (new Vector3 (1, 1, 1));
+		object_brick.GetComponentInChildren<Text>().text = title;
+		object_brick.GetComponentInChildren<Text> ().fontSize = 24;
 	}
 
+	//Removes a brick by title from the Panel and Dictionary
 	public void DestroyBrick(string title){
 		List<string> keys = new List<string> (BricksInUse.Keys);
 		foreach (string s in keys) {
@@ -46,8 +47,11 @@ public class BrickFactory : MonoBehaviour {
 		}
 	}
 
+	//Returns a color from the ColorClass given a title. If title doesnt exist, prints to the console
 	public Color32 ColorSync(string title){
+		print (title);
 		Color32 ret = new Color32();
+		cc = new ColorClass ();
 		switch (title) {
 		case "An" :
 			ret = cc.Analytisk;
