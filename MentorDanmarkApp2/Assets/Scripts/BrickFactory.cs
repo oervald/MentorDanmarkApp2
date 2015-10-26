@@ -5,7 +5,6 @@ using System.Collections.Generic;
 
 public class BrickFactory : MonoBehaviour {
 	public GameObject brick;
-	public GameObject imagePanel;
 	ColorClass cc;
 	Dictionary<string, GameObject> BricksInUse;
 	// Use this for initialization
@@ -19,14 +18,14 @@ public class BrickFactory : MonoBehaviour {
 	
 	}
 	//Creates a new brick and puts it into the BrickPanel, also places the brick in a Dictionary to control the amount of bricks
-	public void CreateBrick(string title, string percentage){
+	public void CreateBrick(string title, string percentage, GameObject panel){
 		GameObject object_brick = Instantiate (brick) as GameObject;
 
 
 		object_brick.GetComponentInChildren<Image> ().color = ColorSync (title);
 		BricksInUse.Add(title, object_brick);
 
-		object_brick.transform.SetParent(imagePanel.transform,true);
+		object_brick.transform.SetParent(panel.transform,true);
 		object_brick.transform.localScale = (new Vector3 (1, 1, 1));
 		Text[] texts = object_brick.GetComponentsInChildren<Text>();
 		foreach (Text t in texts) {

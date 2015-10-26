@@ -51,11 +51,16 @@
      <Compile Include="Assets\Scripts\BrickController.cs" />
      <Compile Include="Assets\Scripts\BrickFactory.cs" />
      <Compile Include="Assets\Scripts\ColorClass.cs" />
+     <Compile Include="Assets\Scripts\FadeBrick.cs" />
      <Compile Include="Assets\Scripts\ListItem\ListItem2.cs" />
      <Compile Include="Assets\Scripts\ListItem\ListItem3.cs" />
+     <Compile Include="Assets\Scripts\MainSetupScript.cs" />
      <Compile Include="Assets\Scripts\PageSetup.cs" />
+     <Compile Include="Assets\Scripts\PopGameWindow.cs" />
      <Compile Include="Assets\Scripts\ToggleCanvas.cs" />
+     <Compile Include="Assets\Scripts\ToggleHighlightScript.cs" />
      <Compile Include="Assets\Scripts\TransformToggleScript.cs" />
+     <Compile Include="Assets\Scripts\TweenPanelScript.cs" />
      <None Include="Assets\Demigiant\DOTween\readme.txt" />
      <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
      <None Include="Assets\Demigiant\DOTween\DOTween46.xml" />

@@ -14,8 +14,8 @@ public class BrickController : MonoBehaviour {
 	
 	}
 
-	public void CreateNewBrick(string title, string percentage){
-		bf.CreateBrick (title, percentage);
+	public void CreateNewBrick(string title, string percentage, GameObject panel){
+		bf.CreateBrick (title, percentage, panel);
 	}
 
 	public void DeleteBrick( string title){
@@ -23,8 +23,6 @@ public class BrickController : MonoBehaviour {
 	}
 
 	public Color32 ColorSync(string title){
-		print (title);
-		print (bf.imagePanel.name);
 		return bf.ColorSync (title);
 	}
 }
