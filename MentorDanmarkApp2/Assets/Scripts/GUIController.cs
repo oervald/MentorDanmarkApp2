@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class GUIController : MonoBehaviour {
 	GamePanelScript gps;
@@ -12,7 +13,7 @@ public class GUIController : MonoBehaviour {
 	void Update () {
 	
 	}
-	public void goToGamePanel(string name){
-		gps.TweenThis (name);
+	public void goToGamePanel(string name, Sprite img){
+		gps.TweenThis (name, img);
 	}
 }

@@ -26,5 +26,6 @@ public class ToggleSubjectScript : MonoBehaviour {
 				t.GetComponent<Text> ().fontStyle = FontStyle.Normal;
 			}
 		}
+
 	}
 }

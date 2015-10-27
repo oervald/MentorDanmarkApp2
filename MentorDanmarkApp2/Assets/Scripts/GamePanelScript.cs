@@ -15,13 +15,22 @@ public class GamePanelScript : MonoBehaviour {
 	void Update () {
 	
 	}
-	public void TweenThis(string name){
+	public void TweenThis(string name, Sprite img){
 		Text [] t = gamePanel.GetComponentsInChildren<Text> ();
 		foreach (Text x in t) {
 			if(x.CompareTag("GamePanelHeadline")){
 				x.text = name;
 			}
 		}
+
+		Image [] i = gameObject.GetComponentsInChildren<Image> ();
+		foreach (Image x in i) {
+			if(x.CompareTag("GamePanelImage")){
+				x.sprite = img;
+			}
+		}
+
+
 		//Uses saves the original Vector3 position from the panel
 		Vector3 origin = gamePanel.transform.position;
 		gamePanel.transform.SetAsLastSibling ();
