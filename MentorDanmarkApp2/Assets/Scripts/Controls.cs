@@ -8,10 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 using System;
-namespace AssemblyCSharp
-{
+using UnityEngine.UI;
+using UnityEngine;
+
 	public interface Controls
 	{
+		 void onClickToggleFade(GameObject gm);
 	}
-}
+
 

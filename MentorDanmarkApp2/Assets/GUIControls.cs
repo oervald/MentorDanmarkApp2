@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEngine.UI;
 
-public class ToggleCanvas : MonoBehaviour {
-	public GameObject panel;
+public class GUIControls : MonoBehaviour {
+
 	// Use this for initialization
 	void Start () {
 	
@@ -12,9 +11,5 @@ public class ToggleCanvas : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
-	}
-
-	public void onClickToggle(){
-		panel.transform.SetAsFirstSibling ();
 	}
 }

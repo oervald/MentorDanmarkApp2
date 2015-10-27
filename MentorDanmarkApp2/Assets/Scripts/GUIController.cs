@@ -1,13 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEngine.UI;
 
-public class MainSetupScript : MonoBehaviour {
-	public GameObject brickPanel;
+public class GUIController : MonoBehaviour {
 
-	void OnShow(){
-		
-	}
 	// Use this for initialization
 	void Start () {
 	
