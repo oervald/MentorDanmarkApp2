@@ -4,10 +4,10 @@ using UnityEngine.UI;
 using DG.Tweening;
 
 public class TweenPanelScript : MonoBehaviour {
-    GameObject gamePanel;
+	GUIController GC;
 	// Use this for initialization
 	void Start () {
-		gamePanel = GameObject.Find ("GamePanelHolder");
+		GC = GameObject.Find ("ScriptObject").GetComponent<GUIController> ();
 
 	}
 	
@@ -16,17 +16,11 @@ public class TweenPanelScript : MonoBehaviour {
 	
 	}
 
-	public void TweenThis(){
-	//Uses saves the original Vector3 position from the panel
-		Vector3 origin = gamePanel.transform.position;
-		gamePanel.transform.SetAsLastSibling ();
-		//Gets Vector3 Input as Coordinates
-		Vector3 inputCoordinates = Input.mousePosition;
-		inputCoordinates.x = origin.x;
-
-		//Moves the panel to the inputcoordinates and scales is while moving it towards its old position, thus making the effekt
-		gamePanel.transform.DOMove (inputCoordinates,0);
-		gamePanel.transform.DOScale (new Vector3(0,0,0), 0.3f).From();
-		gamePanel.transform.DOMove(origin,0.3f);
+	public void onClickGameStartGame(){
+		Text t = gameObject.GetComponentInChildren<Text> ();
+		string name = t.text;
+		GC.goToGamePanel (name);
 	}
+
+
 }
