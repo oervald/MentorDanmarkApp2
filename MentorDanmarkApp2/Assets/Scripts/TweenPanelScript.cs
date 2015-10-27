@@ -4,10 +4,11 @@ using UnityEngine.UI;
 using DG.Tweening;
 
 public class TweenPanelScript : MonoBehaviour {
-	public GameObject gamePanel;
+    GameObject gamePanel;
 	// Use this for initialization
 	void Start () {
-	
+		gamePanel = GameObject.Find ("GamePanelHolder");
+
 	}
 	
 	// Update is called once per frame
