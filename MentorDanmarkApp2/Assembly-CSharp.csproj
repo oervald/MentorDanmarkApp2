@@ -53,7 +53,6 @@
      <Compile Include="Assets\Scripts\GamePanelScript.cs" />
      <Compile Include="Assets\Scripts\ListItem\ListItem2.cs" />
      <Compile Include="Assets\Scripts\ListItem\ListItem3.cs" />
-     <Compile Include="Assets\Scripts\LoadXMLScript.cs" />
      <Compile Include="Assets\Scripts\ScrollSnapRect.cs" />
      <Compile Include="Assets\Scripts\ToggleSubjectScript.cs" />
      <Compile Include="Assets\Scripts\TweenPanelScript.cs" />
@@ -70,16 +69,16 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="DOTween">
- <HintPath>C:/Users/Ørvald/Documents/MentorDanmarkApp2/MentorDanmarkApp2/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+ <HintPath>C:/Users/thund_000/Documents/unity/pro/MentorDanmarkApp2/MentorDanmarkApp2/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="DOTween43">
- <HintPath>C:/Users/Ørvald/Documents/MentorDanmarkApp2/MentorDanmarkApp2/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
+ <HintPath>C:/Users/thund_000/Documents/unity/pro/MentorDanmarkApp2/MentorDanmarkApp2/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
  </Reference>
  <Reference Include="DOTween46">
- <HintPath>C:/Users/Ørvald/Documents/MentorDanmarkApp2/MentorDanmarkApp2/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
+ <HintPath>C:/Users/thund_000/Documents/unity/pro/MentorDanmarkApp2/MentorDanmarkApp2/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
  </Reference>
  <Reference Include="DOTween50">
- <HintPath>C:/Users/Ørvald/Documents/MentorDanmarkApp2/MentorDanmarkApp2/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
+ <HintPath>C:/Users/thund_000/Documents/unity/pro/MentorDanmarkApp2/MentorDanmarkApp2/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
