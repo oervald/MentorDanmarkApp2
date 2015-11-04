@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gamelibrary>
+	<game>
+		<headline>Alias leg</headline>
+		<appHeadline>Alias leg</appHeadline>
+		<classes>
+			<class>Matematik</class>
+		</classes>
+		<levels>
+			<level>Indskoling</level>
+			<level>Mellemtrin</level>
+		</levels>
+		<tools>
+			<tool>Saks</tool>
+			<tool>Papir</tool>
+		</tools>
+		<learningStyle>
+			<style>Auditiv</style>
+		</learningStyle>
+		<text>Lav papirkort med billeder eller matematiske betegnelser på. Det kunne være betegnelser som regnearter eller geometriske figurer.
+		I skiftes til at trække et kort, og forklare ordet uden at sige selve ordet.</text>
+	</game>
+	
+	<game>
+		<headline>Gæt, hvad der står i panden på dig-leg</headline>
+		<appHeadline>Hvad er jeg?</appHeadline>
+		<classes>
+			<class>Matematik</class>
+		</classes>
+		<levels>
+			<level>Indskoling</level>
+		</levels>
+		<tools>
+		</tools>
+		<learningStyle>
+			<style>Auditiv</style>
+		</learningStyle>
+		<text>Skriv nogle tal på nogle post’its. I skiftes til at placere det i panden, hvortil den anden skal sige nogle regnestykker,
+		som giver det tal. Det gælder selvfølgelig om at gætte, hvilken figur man har i panden.</text>
+	</game>
+	
+	<game>
+		<headline>Bum-leg</headline>
+		<appHeadline>Bul-leg</appHeadline>
+		<classes>
+			<class>Matematik</class>
+		</classes>
+		<levels>
+			<level>Indskoling</level>
+			<level>Mellemtrin</level>
+		</levels>
+		<tools>
+		</tools>
+		<learningStyle>
+			<style>Auditiv</style>
+		</learningStyle>
+		<text>Øv tabeller ved, at I skiftes til at tælle, og sige bum, når der siges et tal, som den pågældende tabel går op i.</text>	
+	</game>
+	
+	<game>
+		<headline>Lav lydfiler</headline>
+		<appHeadline>Lav lydfiler</appHeadline>
+		<classes>
+			<class>Matematik</class>
+		</classes>
+		<levels>
+			<level>Indskoling</level>
+			<level>Mellemtrin</level>
+			<level>Udskoling</level>
+		</levels>
+		<tools>
+		<tool>Optager</tool>
+		</tools>
+		<learningStyle>
+			<style>Auditiv</style>
+		</learningStyle>
+		<text>Lav lydfiler, hvor I optager eleven, eller dig, gennemgå noget svært stof. Lad eleven have adgang til at afspille lydfilerne efterfølgende.</text>
+	</game>
+	
+	<game>
+		<headline>Vi siger det samme-leg</headline>
+		<appHeadline>Vi siger det samme-leg</appHeadline>
+		<classes>
+			<class>Matematik</class>
+		</classes>
+		<levels>
+			<level>Indskoling</level>
+			<level>Mellemtrin</level>
+		</levels>
+		<tools>
+		</tools>
+		<learningStyle>
+			<style>Auditiv</style>
+		</learningStyle>
+		<text>Find en matematikbog frem og skift til at læse en læresætning op, eksempelvis “Procent", hvorefter den anden skal sige læresætningen tre gange.  
+			Hvis det lykkedes at sige sætningen korrekt alle tre gange, opnås et point. </text>
+	</game>
+	
+	<game>
+		<headline>5 spørgsmål til professoren</headline>
+		<appHeadline>5 spørgsmål til professoren</appHeadline>
+		<classes>
+			<class>Matematik</class>
+		</classes>
+		<levels>
+			<level>Indskoling</level>
+			<level>Mellemtrin</level>
+			<level>Udskoling</level>
+		</levels>
+		<tools>
+		</tools>
+		<learningStyle>
+			<style>Auditiv</style>
+		</learningStyle>
+		<text>Aftal et emne som eksempelvis geometriske figurer. I skiftes til at tænke på en, hvorefter den anden skal gætte. Der må stilles 5 spørgsmål, som kun må besvares med ja eller nej.</text>
+	</game>
+	
+	<game>
+		<headline>Lav ordspil, rim og remser</headline>
+		<appHeadline>Ordspil, rim og remser</appHeadline>
+		<classes>
+			<class>Matematik</class>
+		</classes>
+		<levels>
+			<level>Indskoling</level>
+			<level>Mellemtrin</level>
+		</levels>
+		<tools>
+		</tools>
+		<learningStyle>
+			<style>Auditiv</style>
+		</learningStyle>
+		<text>Lav nogle rim og remser sammen med eleven til det stof eleven finder svært. Eks.: tælleren er i toppen og nævneren er nederdelen i brøkregning.</text>
+	</game>
+	
+	<game>
+		<headline>Sande og falske forklaringer</headline>
+		<appHeadline>Sandt eller falsk</appHeadline>
+		<classes>
+			<class>Matematik</class>
+		</classes>
+		<levels>
+			<level>Indskoling</level>
+		</levels>
+		<tools>
+			<tool>Saks</tool>
+			<tool>Papir</tool>
+		</tools>
+		<learningStyle>
+			<style>Auditiv</style>
+		</learningStyle>
+		<text>Lav nogle papirkort med f.eks. plus, minus og gange. I trækker et emne og skiftes til at lave forklaringer, hvorefter den anden skal sige, om det er en sand eller falsk forklaring.</text>
+	</game>
+		
+	<game>
+		<headline>Højtlæsning</headline>
+		<appHeadline>Højtlæsning</appHeadline>
+		<classes>
+			<class>Matematik</class>
+		</classes>
+		<levels>
+			<level>Indskoling</level>
+			<level>Mellemtrin</level>
+			<level>Udskoling</level>
+		</levels>
+		<tools>
+		</tools>
+		<learningStyle>
+			<style>Auditiv</style>
+		</learningStyle>
+		<text>Læs en relevant tekst op for eleven. Motiver efterfølgende eleven til at gengive indholdet.</text>
+	</game>
+	
+	<game>
+		<headline>Lav en flip flapper</headline>
+		<appHeadline>Lav en flip flapper</appHeadline>
+		<classes>
+			<class>Matematik</class>
+		</classes>
+		<levels>
+			<level>Indskoling</level>
+		</levels>
+		<tools>
+			<tool>Saks</tool>
+			<tool>Papir</tool>
+		</tools>
+		<learningStyle>
+			<style>Auditiv</style>
+		</learningStyle>
+		<text>Lav en flip flapper, og farv de yderste fire felter hver sin farve. På de næste otte felter tegnes der figurer, og i de sidste 16 felter skrives matematiske begreber som eksempelvis division. I kan skiftes til at “vælge” et begreb og forklare det for den anden. </text>
+	</game>
+	
+	<game>
+		<headline>Gæt, hvad der står i panden på dig-leg</headline>
+		<appHeadline>Hvad er jeg?</appHeadline>
+		<classes>
+			<class>Matematik</class>
+		</classes>
+		<levels>
+			<level>Mellemtrin</level>
+			<level>Udskoling</level>
+		</levels>
+		<tools>
+		</tools>
+		<learningStyle>
+			<style>Auditiv</style>
+		</learningStyle>
+		<text>Skriv nogle geometriske figurer på nogle post’its. I skiftes til at placere en af dem i panden, hvortil den anden skal beskrive figuren med informationer som grader, vinkler osv. Det gælder selvfølgelig om at gætte, hvilken figur man har i panden.</text>
+	</game>
+	
+	<game>
+		<headline>Leg Interviewer</headline>
+		<appHeadline>Leg Interviewer</appHeadline>
+		<classes>
+			<class>Matematik</class>
+		</classes>
+		<levels>
+			<level>Mellemtrin</level>
+		</levels>
+		<tools>
+		</tools>
+		<learningStyle>
+			<style>Auditiv</style>
+		</learningStyle>
+		<text>Lad eleven interviewe dig med udgangspunkt i et stofområde f.eks. brøker. Fastsæt stofområde for eleven inden interviewet går i gang.</text>
+	</game>
+	
+	<game>
+		<headline>Sande og falske forklaringer</headline>
+		<appHeadline>Sandt eller falsk</appHeadline>
+		<classes>
+			<class>Matematik</class>
+		</classes>
+		<levels>
+			<level>Mellemtrin</level>
+		</levels>
+		<tools>
+		</tools>
+		<learningStyle>
+			<style>Auditiv</style>
+		</learningStyle>
+		<text>Lav nogle papirkort med emneområder som f.eks. regnearter, geometri, procent. I trækker et emne og skiftes til at lave forklaringer, hvorefter den anden skal sige, om det er en sand eller falsk forklaring</text>
+	</game>
+	
+	<game>
+		<headline>Fortælle-leg</headline>
+		<appHeadline>Fortælle-leg</appHeadline>
+		<classes>
+			<class>Matematik</class>
+		</classes>
+		<levels>
+			<level>Mellemtrin</level>
+			<level>Udskoling</level>
+		</levels>
+		<tools>
+			<tool>Terning</tool>
+			<tool>Papir</tool>
+		</tools>
+		<learningStyle>
+			<style>Auditiv</style>
+		</learningStyle>
+		<text>Opstil 6 stofområder/huskeregler og giv hver af dem et nummer. I skiftes til at slå med en terning, og fortælle, om det stofområde/huskeregel, terningen angiver. Udregning af eksempelvis kvadratrod, primtal, areal og omkreds: Hvad er det, og hvordan udregnes det?</text>
+	</game>
+	
+	<game>
+		<headline>Lav en flip flapper</headline>
+		<appHeadline>Lav en flip flapper</appHeadline>
+		<classes>
+			<class>Matematik</class>
+		</classes>
+		<levels>
+			<level>Mellemtrin</level>
+		</levels>
+		<tools>
+			<tool>Saks</tool>
+			<tool>Papir</tool>
+		</tools>
+		<learningStyle>
+			<style>Auditiv</style>
+		</learningStyle>
+		<text>Lav en flip flapper, og farv de yderste fire felter hver sin farve. På de næste otte felter tegnes der figurer, og i de sidste 16 felter skrives matematiske begreber som eksempelvis division. I kan skiftes til at “vælge” et begreb og forklare det for den anden.</text>
+	</game>
+	
+	<game>
+		<headline>Gem guldkornene på ShowMe</headline>
+		<appHeadline>ShowMe</appHeadline>
+		<classes>
+			<class>Matematik</class>
+		</classes>
+		<levels>
+			<level>Mellemtrin</level>
+			<level>Udskoling</level>
+		</levels>
+		<tools>
+		</tools>
+		<learningStyle>
+			<style>Auditiv</style>
+		</learningStyle>
+		<text>Hent appen ShowMe, som er gratis og kan hentes til både Android og Apple. Her kan man optage forklaringer, gemme dem og dele dem. Den er især anvendelig, hvis eleven kæmper med at huske en bestemt metode f.eks. at addere.</text>
+	</game>
+	
+	<game>
+		<headline>Lav et Jeopardy-spil</headline>
+		<appHeadline>Jeopardy-spil</appHeadline>
+		<classes>
+			<class>Matematik</class>
+		</classes>
+		<levels>
+			<level>Mellemtrin</level>
+			<level>Udskoling</level>
+		</levels>
+		<tools>
+		</tools>
+		<learningStyle>
+			<style>Auditiv</style>
+		</learningStyle>
+		<text>Lav et Jeopardy-spil sammen med eleven på hjemmesiden: www.jeopardylabs. Godt til repetition af forskellige emneområder. Opstil kategorier som tabeller, geometri og funktioner, og samarbejd om at lave spørgsmål og svar.</text>
+	</game>
+	
+	<game>
+		<headline>Alias leg</headline>
+		<appHeadline>Alias leg</appHeadline>
+		<classes>
+			<class>Matematik</class>
+		</classes>
+		<levels>
+			<level>Udskoling</level>
+		</levels>
+		<tools>
+			<tool>Saks</tool>
+			<tool>Papir</tool>
+		</tools>
+		<learningStyle>
+			<style>Auditiv</style>
+		</learningStyle>
+		<text>Lav papirkort med billeder eller matematiske betegnelser på. Det kunne være betegnelser som geometriske figurer eller måleenheder. I skiftes til at trække et kort, og forklare ordet uden at sige selve ordet..</text>
+	</game>
+		<game>
+		<headline>Leg Interviewer</headline>
+		<appHeadline>Leg Interviewer</appHeadline>
+		<classes>
+			<class>Matematik</class>
+		</classes>
+		<levels>
+			<level>Udskoling</level>
+		</levels>
+		<tools>
+		</tools>
+		<learningStyle>
+			<style>Auditiv</style>
+		</learningStyle>
+		<text>Lad eleven interviewe dig med udgangspunkt i et stofområde f.eks. brøker. Fastsæt stofområde for eleven inden interviewet går i gang.</text>
+	</game>
+	
+	<game>
+		<headline>Sande og falske forklaringer</headline>
+		<appHeadline>Sandt eller falsk</appHeadline>
+		<classes>
+			<class>Matematik</class>
+		</classes>
+		<levels>
+			<level>Udskoling</level>
+		</levels>
+		<tools>
+			<tool>Saks</tool>
+			<tool>Papir</tool>
+		</tools>
+		<learningStyle>
+			<style>Auditiv</style>
+		</learningStyle>
+		<text>Lav nogle papirkort med emneområder som f.eks. geometri, procent og lineære funktioner. I trækker et emne og skiftes til at lave forklaringer, hvorefter den anden skal sige, om det er en sand eller falsk forklaring.</text>
+	</game>
+	
+	<game>
+		<headline>Brug videoer</headline>
+		<appHeadline>Brug videoer</appHeadline>
+		<classes>
+			<class>Matematik</class>
+		</classes>
+		<levels>
+			<level>Udskoling</level>
+		</levels>
+		<tools>
+		</tools>
+		<learningStyle>
+			<style>Auditiv</style>
+		</learningStyle>
+		<text>Se korte undervisningsvideoer sammen som afveksling. Der er meget at finde på Youtube. Tal om videoen efterfølgende.</text>
+	</game>
+	
+	<game>
+		<headline>Lav en flip flapper</headline>
+		<appHeadline>Lav en flip flapper</appHeadline>
+		<classes>
+			<class>Matematik</class>
+		</classes>
+		<levels>
+			<level>Udskoling</level>
+		</levels>
+		<tools>
+			<tool>Saks</tool>
+			<tool>Papir</tool>
+		</tools>
+		<learningStyle>
+			<style>Auditiv</style>
+		</learningStyle>
+		<text>Lav en flip flapper, og farv de yderste fire felter hver sin farve. På de næste otte felter tegnes der figurer, og i de sidste 16 felter skrives matematiske begreber som eksempelvis procent. I kan skiftes til at “vælge” et begreb og forklare det for den anden.</text>
+	</game>
+	
+	
+	
+</gamelibrary>
