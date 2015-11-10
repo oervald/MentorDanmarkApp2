@@ -3,9 +3,9 @@
 	<game>
 		<headline>Alias leg</headline>
 		<appHeadline>Alias leg</appHeadline>
-		<classes>
-			<class>Matematik</class>
-		</classes>
+		<subjects>
+			<subject>Matematik</subject>
+		</subjects>
 		<levels>
 			<level>Indskoling</level>
 			<level>Mellemtrin</level>
@@ -24,9 +24,9 @@
 	<game>
 		<headline>Gæt, hvad der står i panden på dig-leg</headline>
 		<appHeadline>Hvad er jeg?</appHeadline>
-		<classes>
-			<class>Matematik</class>
-		</classes>
+		<subjects>
+			<subject>Matematik</subject>
+		</subjects>
 		<levels>
 			<level>Indskoling</level>
 		</levels>
@@ -42,9 +42,9 @@
 	<game>
 		<headline>Bum-leg</headline>
 		<appHeadline>Bul-leg</appHeadline>
-		<classes>
-			<class>Matematik</class>
-		</classes>
+		<subjects>
+			<subject>Matematik</subject>
+		</subjects>
 		<levels>
 			<level>Indskoling</level>
 			<level>Mellemtrin</level>
@@ -60,9 +60,9 @@
 	<game>
 		<headline>Lav lydfiler</headline>
 		<appHeadline>Lav lydfiler</appHeadline>
-		<classes>
-			<class>Matematik</class>
-		</classes>
+		<subjects>
+			<subject>Matematik</subject>
+		</subjects>
 		<levels>
 			<level>Indskoling</level>
 			<level>Mellemtrin</level>
@@ -80,9 +80,9 @@
 	<game>
 		<headline>Vi siger det samme-leg</headline>
 		<appHeadline>Vi siger det samme-leg</appHeadline>
-		<classes>
-			<class>Matematik</class>
-		</classes>
+		<subjects>
+			<subject>Matematik</subject>
+		</subjects>
 		<levels>
 			<level>Indskoling</level>
 			<level>Mellemtrin</level>
@@ -99,9 +99,9 @@
 	<game>
 		<headline>5 spørgsmål til professoren</headline>
 		<appHeadline>5 spørgsmål til professoren</appHeadline>
-		<classes>
-			<class>Matematik</class>
-		</classes>
+		<subjects>
+			<subject>Matematik</subject>
+		</subjects>
 		<levels>
 			<level>Indskoling</level>
 			<level>Mellemtrin</level>
@@ -118,9 +118,9 @@
 	<game>
 		<headline>Lav ordspil, rim og remser</headline>
 		<appHeadline>Ordspil, rim og remser</appHeadline>
-		<classes>
-			<class>Matematik</class>
-		</classes>
+		<subjects>
+			<subject>Matematik</subject>
+		</subjects>
 		<levels>
 			<level>Indskoling</level>
 			<level>Mellemtrin</level>
@@ -136,9 +136,9 @@
 	<game>
 		<headline>Sande og falske forklaringer</headline>
 		<appHeadline>Sandt eller falsk</appHeadline>
-		<classes>
-			<class>Matematik</class>
-		</classes>
+		<subjects>
+			<subject>Matematik</subject>
+		</subjects>
 		<levels>
 			<level>Indskoling</level>
 		</levels>
@@ -155,9 +155,9 @@
 	<game>
 		<headline>Højtlæsning</headline>
 		<appHeadline>Højtlæsning</appHeadline>
-		<classes>
-			<class>Matematik</class>
-		</classes>
+		<subjects>
+			<subject>Matematik</subject>
+		</subjects>
 		<levels>
 			<level>Indskoling</level>
 			<level>Mellemtrin</level>
@@ -174,9 +174,9 @@
 	<game>
 		<headline>Lav en flip flapper</headline>
 		<appHeadline>Lav en flip flapper</appHeadline>
-		<classes>
-			<class>Matematik</class>
-		</classes>
+		<subjects>
+			<subject>Matematik</subject>
+		</subjects>
 		<levels>
 			<level>Indskoling</level>
 		</levels>
@@ -193,9 +193,9 @@
 	<game>
 		<headline>Gæt, hvad der står i panden på dig-leg</headline>
 		<appHeadline>Hvad er jeg?</appHeadline>
-		<classes>
-			<class>Matematik</class>
-		</classes>
+		<subjects>
+			<subject>Matematik</subject>
+		</subjects>
 		<levels>
 			<level>Mellemtrin</level>
 			<level>Udskoling</level>
@@ -211,9 +211,9 @@
 	<game>
 		<headline>Leg Interviewer</headline>
 		<appHeadline>Leg Interviewer</appHeadline>
-		<classes>
-			<class>Matematik</class>
-		</classes>
+		<subjects>
+			<subject>Matematik</subject>
+		</subjects>
 		<levels>
 			<level>Mellemtrin</level>
 		</levels>
@@ -228,9 +228,9 @@
 	<game>
 		<headline>Sande og falske forklaringer</headline>
 		<appHeadline>Sandt eller falsk</appHeadline>
-		<classes>
-			<class>Matematik</class>
-		</classes>
+		<subjects>
+			<subject>Matematik</subject>
+		</subjects>
 		<levels>
 			<level>Mellemtrin</level>
 		</levels>
@@ -245,9 +245,9 @@
 	<game>
 		<headline>Fortælle-leg</headline>
 		<appHeadline>Fortælle-leg</appHeadline>
-		<classes>
-			<class>Matematik</class>
-		</classes>
+		<subjects>
+			<subject>Matematik</subject>
+		</subjects>
 		<levels>
 			<level>Mellemtrin</level>
 			<level>Udskoling</level>
@@ -265,9 +265,9 @@
 	<game>
 		<headline>Lav en flip flapper</headline>
 		<appHeadline>Lav en flip flapper</appHeadline>
-		<classes>
-			<class>Matematik</class>
-		</classes>
+		<subjects>
+			<subject>Matematik</subject>
+		</subjects>
 		<levels>
 			<level>Mellemtrin</level>
 		</levels>
@@ -284,9 +284,9 @@
 	<game>
 		<headline>Gem guldkornene på ShowMe</headline>
 		<appHeadline>ShowMe</appHeadline>
-		<classes>
-			<class>Matematik</class>
-		</classes>
+		<subjects>
+			<subject>Matematik</subject>
+		</subjects>
 		<levels>
 			<level>Mellemtrin</level>
 			<level>Udskoling</level>
@@ -302,9 +302,9 @@
 	<game>
 		<headline>Lav et Jeopardy-spil</headline>
 		<appHeadline>Jeopardy-spil</appHeadline>
-		<classes>
-			<class>Matematik</class>
-		</classes>
+		<subjects>
+			<subject>Matematik</subject>
+		</subjects>
 		<levels>
 			<level>Mellemtrin</level>
 			<level>Udskoling</level>
@@ -320,9 +320,9 @@
 	<game>
 		<headline>Alias leg</headline>
 		<appHeadline>Alias leg</appHeadline>
-		<classes>
-			<class>Matematik</class>
-		</classes>
+		<subjects>
+			<subject>Matematik</subject>
+		</subjects>
 		<levels>
 			<level>Udskoling</level>
 		</levels>
@@ -338,9 +338,9 @@
 		<game>
 		<headline>Leg Interviewer</headline>
 		<appHeadline>Leg Interviewer</appHeadline>
-		<classes>
-			<class>Matematik</class>
-		</classes>
+		<subjects>
+			<subject>Matematik</subject>
+		</subjects>
 		<levels>
 			<level>Udskoling</level>
 		</levels>
@@ -355,9 +355,9 @@
 	<game>
 		<headline>Sande og falske forklaringer</headline>
 		<appHeadline>Sandt eller falsk</appHeadline>
-		<classes>
-			<class>Matematik</class>
-		</classes>
+		<subjects>
+			<subject>Matematik</subject>
+		</subjects>
 		<levels>
 			<level>Udskoling</level>
 		</levels>
@@ -374,9 +374,9 @@
 	<game>
 		<headline>Brug videoer</headline>
 		<appHeadline>Brug videoer</appHeadline>
-		<classes>
-			<class>Matematik</class>
-		</classes>
+		<subjects>
+			<subject>Matematik</subject>
+		</subjects>
 		<levels>
 			<level>Udskoling</level>
 		</levels>
@@ -391,9 +391,9 @@
 	<game>
 		<headline>Lav en flip flapper</headline>
 		<appHeadline>Lav en flip flapper</appHeadline>
-		<classes>
-			<class>Matematik</class>
-		</classes>
+		<subjects>
+			<subject>Matematik</subject>
+		</subjects>
 		<levels>
 			<level>Udskoling</level>
 		</levels>

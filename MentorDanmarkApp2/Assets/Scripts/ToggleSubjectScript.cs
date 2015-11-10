@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine.UI;
 
 public class ToggleSubjectScript : MonoBehaviour {
-
+	public string nameOfSubject;
 	// Use this for initialization
 	void Start () {
 		OnToggle ();

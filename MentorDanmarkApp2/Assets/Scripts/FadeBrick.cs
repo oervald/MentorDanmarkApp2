@@ -5,9 +5,13 @@ using UnityEngine.UI;
 public class FadeBrick : MonoBehaviour {
 	public Image brick;
 	public Toggle toggle;
+	public string nameOfLearningStyle;
+	GUIController con;
 	// Use this for initialization
 	void Start () {
 	
+		GameObject go = GameObject.Find ("ScriptObject");
+		con = go.GetComponent<GUIController> ();
 	}
 	
 	// Update is called once per frame
