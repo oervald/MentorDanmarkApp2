@@ -13,7 +13,8 @@ public class XMLReader
 	public List<Game> LoadXML(){
 		List<Game> games = new List<Game> ();
 
-		TextAsset text = (TextAsset)Resources.Load ("XMLMentorAPP", typeof(TextAsset));
+	 	TextAsset text = (TextAsset)Resources.Load ("XMLMentorAPP", typeof(TextAsset));
+	//	TextAsset text = (TextAsset)Resources.Load ("TestXMLForMentorDanmark", typeof(TextAsset));
 		XmlDocument doc = new XmlDocument ();
 		doc.LoadXml(text.text);
 
@@ -22,28 +23,24 @@ public class XMLReader
 			tempGame.Headline = node.SelectSingleNode("headline").InnerText;
 			tempGame.AppHeadline = node.SelectSingleNode("appHeadline").InnerText;
 			tempGame.Subjects =  convertFromXmlNodeList(node.SelectNodes("./subjects/subject"));
+			tempGame.LearningStyles= convertFromXmlNodeList(node.SelectNodes("./learningStyle/style"));
 			tempGame.Levels = convertFromXmlNodeList( node.SelectNodes("./levels/level"));
 			tempGame.Tools = convertFromXmlNodeList( node.SelectNodes("./tools/tool"));
 			tempGame.Text =  node.SelectSingleNode("text").InnerText;
 			
 			games.Add(tempGame);
-		}
-		
+		}	
 		return games;	
 	}
 	
 	public List<string> convertFromXmlNodeList(XmlNodeList xml){
 		
-		List<string> list = new List<string> ();
-		
-		for (int i=0; i<xml.Count; i++) {
-			
+		List<string> list = new List<string> ();	
+		for (int i=0; i<xml.Count; i++) {		
 			list.Add( xml[i].InnerText);
-		}
-		
+		}	
 		return list;
 	}
-
-	}
+}
 
 

@@ -14,7 +14,7 @@ public class GameFactory : MonoBehaviour {
 	List<Game> listUdskoling;
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
 		listIndskoling = new List<Game> ();
 		listMellemstrin = new List<Game> ();
 		listUdskoling = new List<Game> ();
@@ -26,10 +26,10 @@ public class GameFactory : MonoBehaviour {
 	}
 
 	public void SortGames(List<Game> games){
-		int i = 0;
+
 		foreach (Game g in games) {
+			if(!listIndskoling.Contains(g) && !listMellemstrin.Contains(g) && !listUdskoling.Contains(g)){ 
 			foreach(string s in g.Levels){
-				if(g.Levels.Count == 2){print (g.Levels[0].ToString());}
 				switch(s){
 				case "Indskoling":
 					listIndskoling.Add(g);
@@ -42,31 +42,29 @@ public class GameFactory : MonoBehaviour {
 					break;
 
 				default: print ("no level detected");
-					i++;
-					print (i);
 					break;
 				}
 			}
+			}
 		}
-
-
 		InstantiateGames ();
 	}
 
 	public void InstantiateGames(){
-
 		instantiateInPanel (listIndskoling, indskolingPanel);
 		instantiateInPanel (listMellemstrin, mellemtrinPanel);
 		instantiateInPanel (listUdskoling, udskolingPanel);
-
 	}
 
 	public void instantiateInPanel(List<Game> list, GameObject go){
 
 		foreach (Game g in list) {
-		
+
 			GameObject newGameObject = Instantiate (prefab) as GameObject;
 			newGameObject.GetComponentInChildren<Text>().text = g.AppHeadline;
+			if(g.LearningStyles != null){
+			newGameObject.transform.tag = g.LearningStyles[0];
+			}
 			newGameObject.transform.SetParent(go.transform,false);
 
 		}

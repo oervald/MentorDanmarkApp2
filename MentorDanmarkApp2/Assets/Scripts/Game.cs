@@ -6,15 +6,17 @@ using System.Collections.Generic;
 	string headline;
 	string appHeadline;
 	List<string> levels;
+	List<string> learningStyles;
 	List<string> subjects;
 	List<string> tools;
 	string text;
 
-	public Game (string headline, string appHeadline, List<string> levels, List<string> subjects, List<string> tools, string text)
+	public Game (string headline, string appHeadline, List<string> levels, List<string> learningStyles, List<string> subjects, List<string> tools, string text)
 		{
 			this.headline = headline;
 			this.appHeadline = appHeadline;
 			this.levels = levels;
+			this.learningStyles = learningStyles;
 			this.subjects = subjects;
 			this.tools = tools;
 			this.text = text;
@@ -76,9 +78,35 @@ using System.Collections.Generic;
 			}
 		}
 
-	public override string ToString ()
+		public List<string> LearningStyles {
+			get {
+				return this.learningStyles;
+			}
+			set {
+				learningStyles = value;
+			}
+		}
+
+
+		public override string ToString ()
 		{
-			return string.Format ("[Game: headline={0}, appHeadline={1}, levels={2}, subjects={3}, tools={4}, text={5}]", headline, appHeadline, levels, subjects, tools, text);
+			return string.Format ("[Game: headline={0}, appHeadline={1}, levels={2}, learningStyles={3}, subjects={4}, tools={5}, text={6}]", headline, appHeadline, levels, learningStyles, subjects, tools, text);
+		}
+
+
+	public override bool Equals(object obj)
+	{
+		if (obj == null) return false;
+		Game objAsGame = obj as Game;
+		if (objAsGame == null) return false;
+		else return Equals(objAsGame);
+	}
+
+	public bool Equals (Game otherGame)
+		{
+			if (otherGame == null) return false;
+			return (otherGame.Headline.Equals (this.Headline) && otherGame.Text.Equals (this.Text));
+
 		}
 		
 

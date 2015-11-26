@@ -7,11 +7,18 @@ public class GUIController : MonoBehaviour {
 	GamePanelScript gps;
 	XMLReader xreader;
 	GameFactory gf;
+	TestAddAndDestroy taad;
+	TagFilter tagFilter;
+	List<Game> games;
+	List<string> gamesActive;
 	// Use this for initialization
 	void Start () {
 		gps = GameObject.Find ("GamePanelHolder").GetComponent<GamePanelScript> ();
 		gf = gameObject.GetComponent<GameFactory> ();
 		xreader = new XMLReader ();
+		taad = gameObject.GetComponent<TestAddAndDestroy> ();
+		gamesActive = new List<string> {"Auditiv","Kinæstetisk","Visuel","Taktil"};
+		tagFilter = new TagFilter ();
 		LoadAllXML ();
 
 
@@ -26,8 +33,29 @@ public class GUIController : MonoBehaviour {
 	}
 
 	public void LoadAllXML(){
-		List<Game> games = xreader.LoadXML ();
+		games = xreader.LoadXML ();
 		gf.SortGames (games);
 
 	}
+
+	public void DestroyAndAdd(string learningStyle, Toggle toggle){
+		taad.onClickDestroyAndAdd (learningStyle, toggle);
+	}
+
+	public void loadWithTag(string tag){
+		
+
+		List<Game> temp = tagFilter.filterWithTag(tag, xreader.LoadXML());
+		gf.SortGames (temp);
+
+	}
+
+	public void addToGamesActive(string learningStyle){
+		if (!gamesActive.Contains (learningStyle)) {
+			gamesActive.Add (learningStyle);
+		} else {
+			gamesActive.Remove(learningStyle);
+		}
+	}
+
 }

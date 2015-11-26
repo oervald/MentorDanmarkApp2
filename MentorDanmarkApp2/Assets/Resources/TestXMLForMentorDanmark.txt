@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gamelibrary>
+	<game>
+		<headline>Alias leg</headline>
+		<appHeadline>Alias leg</appHeadline>
+		<subjects>
+			<subject>Matematik</subject>
+			
+		</subjects>
+		<levels>
+			<level>Indskoling</level>
+			<level>Mellemtrin</level>
+		</levels>
+		<tools>
+			<tool>Saks</tool>
+			<tool>Papir</tool>
+		</tools>
+		<learningStyle>
+			<style>Auditiv</style>
+		</learningStyle>
+		<text>Lav papirkort med billeder eller matematiske betegnelser på. Det kunne være betegnelser som regnearter eller geometriske figurer.
+		I skiftes til at trække et kort, og forklare ordet uden at sige selve ordet.</text>
+	</game>
+	
+		<game>
+		<headline>Blias leg</headline>
+		<appHeadline>Blias leg</appHeadline>
+		<subjects>
+			<subject>Matematik</subject>
+			
+		</subjects>
+		<levels>
+			<level>Indskoling</level>
+			<level>Mellemtrin</level>
+		</levels>
+		<tools>
+			<tool>Saks</tool>
+			<tool>Papir</tool>
+		</tools>
+		<learningStyle>
+			<style>Kinæstetisk</style>
+		</learningStyle>
+		<text>Lav papirkort med billeder eller matematiske betegnelser på. Det kunne være betegnelser som regnearter eller geometriske figurer.
+		I skiftes til at trække et kort, og forklare ordet uden at sige selve ordet.</text>
+	</game>
+	
+		<game>
+		<headline>Clias leg</headline>
+		<appHeadline>Clias leg</appHeadline>
+		<subjects>
+			<subject>Matematik</subject>
+			
+		</subjects>
+		<levels>
+			<level>Indskoling</level>
+			<level>Mellemtrin</level>
+		</levels>
+		<tools>
+			<tool>Saks</tool>
+			<tool>Papir</tool>
+		</tools>
+		<learningStyle>
+			<style>Auditiv</style>
+			<style>Kinæstetisk</style>
+		</learningStyle>
+		<text>Lav papirkort med billeder eller matematiske betegnelser på. Det kunne være betegnelser som regnearter eller geometriske figurer.
+		I skiftes til at trække et kort, og forklare ordet uden at sige selve ordet.</text>
+	</game>
+	
+	
+	</gamelibrary>
